@@ -1,4 +1,5 @@
 
 - Tech Docs
 
-    - [Linux tricks](tech/linux_setup.md)
+    - [Linux Tricks](tech/linux_setup.md)
+    - [Windows App Recommadation](tech/windows_setup.md)
