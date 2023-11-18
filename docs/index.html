@@ -11,6 +11,15 @@
   href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
   title="vue"/> 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-550BFRDRL9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-550BFRDRL9');
+</script>
 <body>
   <div id="app">Loading ...</div>
   <!-- Docsify v4 -->
@@ -31,7 +40,7 @@
         '/',            // => /README.md
         '/tech/',       // => /guide.md
       ],
-  
+      ga: 'G-550BFRDRL9',
       // complete configuration parameters
     search: {
       maxAge: 86400000, // Expiration time, the default one day
@@ -64,6 +73,8 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
   <style type="text/css">
     body {
       overflow: auto !important;
