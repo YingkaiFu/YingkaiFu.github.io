@@ -15,8 +15,9 @@
 | IDM  | Fast Download Tool | --- |
 | MemReduct  | Clean Memory | https://www.henrypp.org/product/memreduct|
 | RDPWrap  | Enable Remote Desktop Host Support for Windows | https://github.com/stascorp/rdpwrap/releases|
-| Screen To Gif  | Capture Record | https://github.com/NickeManarin/ScreenToGif/releases|
-
+| Screen To Gif  | Screen Recorder | https://github.com/NickeManarin/ScreenToGif/releases|
+| Pot Player | Video Player | https://potplayer.daum.net/|
+| PowerToys | Powerful Windows System Enhance ToolBox | https://github.com/microsoft/PowerToys/releases|
 
 ## 🌏Windows App Recommadation Used in China
 
