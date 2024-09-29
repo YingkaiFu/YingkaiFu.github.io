@@ -1,0 +1,35 @@
+proxies:
+  - name: "c8385ec1-VLESS_TCP/TLS_Vision"
+    type: vless
+    server: racknerd.yingkaifu.top
+    port: 25590
+    uuid: c8385ec1-e892-4266-bccd-a066ff72c5ae
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "c8385ec1-singbox_hysteria2"
+    type: hysteria2
+    server: racknerd.yingkaifu.top
+    ports: 30000-31000
+    password: c8385ec1-e892-4266-bccd-a066ff72c5ae
+    alpn:
+        - h3
+    sni: racknerd.yingkaifu.top
+    up: "150 Mbps"
+    down: "150 Mbps"
+  - name: "c8385ec1-VLESS_Reality_Vision"
+    type: vless
+    server: 74.48.81.151
+    port: 40302
+    uuid: c8385ec1-e892-4266-bccd-a066ff72c5ae
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.amd.com
+    reality-opts:
+      public-key: aiu_tN41so610xKbw1Bi0Dyxy16q_5qBnXyY6Gud_mc
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
